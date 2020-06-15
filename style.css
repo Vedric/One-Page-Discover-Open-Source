@@ -1,0 +1,527 @@
+/* Générale */
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    color: black
+}
+
+
+/* Polices des différents titres */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Effet Titres */
+
+
+h1.TitreFirstPage {
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}
+
+/* Texte parlant de Mozilla  */
+
+.ParagrapheMozilla {
+    font-size: 30px;
+    margin: 15px;
+    text-align: left;
+}
+
+
+/* Cadres rubrique Mozilla */
+
+.TextMozilla {
+    margin-left: 25px;
+    margin-top: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 25px 25px 15px 0px #00458b;
+    background-color: #f4faff;
+    height: 36%;
+    width: 70%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.TextMozilla:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.TextMozilla2 {
+    float: right;
+    margin-right: 25px;
+    margin-top: 80px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 25px 25px 15px 0px #00458b;
+    background-color: #f4faff;
+    height: 22%;
+    width: 70%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.TextMozilla2:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.BoutonsMozilla {
+    float: right;
+}
+
+.TitreRenard {
+    text-align: left;
+    margin-left: 25px;
+}
+
+
+/* DISPOSITION GENERALE */
+
+/* Dispositions des titres */
+
+.DispositionTitre {
+    padding-top: 35px;
+    background: url(https://img.freepik.com/photos-gratuite/texture-fond-mur-peinture-bleue_53876-14183.jpg?size=626&ext=jpg) repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 10% 80%;
+    position: relative;
+    line-height: normal;
+    font-size: 12rem;
+    background-color: white;
+}
+
+/* Disposition du titre de la premiere page */
+
+.TitreFirstPage {
+    margin: auto;
+    padding: auto;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 3px
+}
+
+/* Disposition vidéo Youtube */
+
+.VideoYoutube {
+    margin-top: 50px;
+}
+
+
+/* Différentes parties du site */
+
+.partie0 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+.partie1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+.partie2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+.partie3 {
+    width: 100%;
+    height: 100%;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+.partie4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+.partie5 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+/* logo Mozilla */
+
+
+.LogoMozillaFoundationn {
+    max-width: 100%;
+    height: auto;
+    width: 15%;
+    margin: 5px;
+}
+
+
+
+
+/*Premier conteneur */
+
+
+.container {
+    max-width: 30%;
+    padding: 5px;
+    background: #f4faff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, .2);
+    float: left;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.container:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* Deuxieme conteneur */
+
+.container2 {
+    max-width: 30%;
+    padding: 5px;
+    background: #f4faff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, .2);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.container2:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* Troisieme conteneur */
+
+.container3 {
+    max-width: 30%;
+    padding: 5px;
+    background: #f4faff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, .2);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.container3:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.container_pere {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    max-height: 70%;
+
+}
+
+/* Disposition texte conteneur */
+
+
+
+/* Différents logo */
+
+/* Image */
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: url(https://createchplescop.fr/wp-content/uploads/2019/03/GAFAM3.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px;
+}
+
+/* Image */
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Open_Source_Initiative_keyhole.svg/1200px-Open_Source_Initiative_keyhole.svg.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px;
+}
+
+/* Image */
+
+.circle3 {
+    width: 200px;
+    height: 200px;
+    background: url(https://www.stickpng.com/assets/images/58406746657b0e0e08612e45.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px;
+}
+
+.boutons {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Cadres contenant les logiciels */
+
+.SoftwareContainer {
+    margin-top: 70px;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+
+/* Cadre logiciels + description */
+
+
+
+/* BLOCS DROITE ET GAUCHE */
+
+.Software {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 12px #555;
+    border: 3px white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 40%;
+    height: 700px;
+    float: left;
+    -webkit-transform: scale(1.00);
+    transform: scale(1.00);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Software:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.Software2 {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 12px #555;
+    border: 3px white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 40%;
+    height: 700px;
+    float: right;
+    -webkit-transform: scale(1.00);
+    transform: scale(1.00);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Software2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Taille des logos (logiciels) */
+
+.DimensionsLogo {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+/* Boutons liés au téléchargement */
+
+.telechargement {
+    box-sizing: border-box;
+    border: 3px black outset;
+    background-color: #f4faff;
+    margin: 10px;
+    border-radius: 30px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    -webkit-transform: scale(1.00);
+    transform: scale(1.00);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.telechargement:hover {
+    background-color: #00458b;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+/* Dimension icone telechargement */
+
+.Bouton {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Dimension de la section Software */
+
+#SoftwareWeb {
+    height: 1000px;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+
+}
+
+#SoftwareMessage {
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+#SoftwareNewtork {
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+#SoftwarePayment {
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+#SoftwareBook {
+    height: 100vh;
+    background-color: #f4faff;
+    scroll-snap-align: start;
+}
+
+
+
+/* CINQUIEME PARTIE */
+
+/* Conteneur images projets Mozilla */
+
+.BordureProjectsMozilla {
+    border: 3px black solid;
+    width: 38.2%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+/* Taille et disposition des images */
+
+.DispositionImages {
+    margin: 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.DispositionImages:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+/* Cadre du footer */
+
+.CadreFooter {
+    margin-top: 10px;
+    height: 15%;
+    max-width: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
